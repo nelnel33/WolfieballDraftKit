@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this is for customizing settings
+    for the WolfieBall Draft Kit interface, NOT the Web page that we're building. 
+-->
+<properties>
+    <property_list>    
+        <!-- Title name -->
+        <property name="PROP_APP_TITLE"   value="WolfieBall Draft Kit"></property>
+        
+        <!--MainPane Components Icons -->
+        <!-- PROGRAM ICON FILES -->
+        <property name="NEW_DRAFT_ICON"             value="New.png"></property>
+        <property name="LOAD_DRAFT_ICON"            value="Load.png"></property>
+        <property name="SAVE_DRAFT_ICON"            value="Save.png"></property>
+        <property name="EXPORT_PAGE_ICON"           value="Export.png"></property>
+        <property name="DELETE_ICON"                value="Delete.png"></property>
+        <property name="EXIT_ICON"                  value="Exit.png"></property>        
+        <property name="ADD_ICON"                   value="Add.png"></property>
+        <property name="MINUS_ICON"                 value="Minus.png"></property>
+        <property name="EDIT_ICON"                  value="Edit.png"></property>
+        <property name="DRAFT_PANE_ICON"            value="draftpane.png"></property>
+        <property name="PLAYERS_PANE_ICON"          value="playerpane.png"></property>
+        <property name="MLB_TEAMS_PANE_ICON"        value="mlbteamspane.png"></property>
+        <property name="STANDINGS_PANE_ICON"        value="standingspane.png"></property>
+        <property name="TEAMS_PANE_ICON"            value="teamspane.png"></property>
+        <property name="SELECT_ICON"                value="best.png"></property>
+        <property name="PLAY_ICON"                  value="play.png"></property>
+        <property name="PAUSE_ICON"                 value="pause.png"></property>
+        
+        
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="NEW_DRAFT_TOOLTIP"          value="Create a New Draft"></property>
+        <property name="LOAD_DRAFT_TOOLTIP"         value="Load and Existing Draft"></property>
+        <property name="SAVE_DRAFT_TOOLTIP"         value="Save this Draft"></property>
+        <property name="EXPORT_PAGE_TOOLTIP"        value="Export the Draft"></property>
+        <property name="DELETE_TOOLTIP"             value="Delete this Draft"></property>
+        <property name="EXIT_TOOLTIP"               value="Exit the Application"></property>
+        <property name="ADD_ITEM_TOOLTIP"           value="Add Item"></property>
+        <property name="REMOVE_ITEM_TOOLTIP"        value="Remove Item"></property>
+        <property name="EDIT_ITEM_TOOLTIP"          value="Edit Item"></property>
+        <property name="SELECT_TOOLTIP"             value="Draft Best Pick"></property>
+        <property name="PLAY_TOOLTIP"               value="Start Automatic Draft"></property>
+        <property name="PAUSE_TOOLTIP"              value="Pause Automatic Draft"></property>
+        
+        
+        <!-- TITLE LABELS FOR EACH OF 5 PANES -->
+        <property name="PLAYERS_PANE_TITLE_LABEL"               value="Available Players"></property>
+        <property name="TEAMS_PANE_TITLE_LABEL"                 value="Fantasy Teams"></property>
+        <property name="STANDINGS_PANE_TITLE_LABEL"             value="Fantasy Standings"></property>
+        <property name="DRAFT_PANE_TITLE_LABEL"                 value="Draft"></property>
+        <property name="MLB_TEAMS_TITLE_LABEL"                  value="MLB Teams"></property>
+        
+        <!--LABELS FOR PLAYERS PANE-->
+        <property name="SEARCH_TEXTFIELD_LABEL"             value="Search: "></property>
+        <property name="ALL_RBUTTON"                        value="All"></property>
+        <property name="C_RBUTTON"                          value="C"></property>
+        <property name="B1_RBUTTON"                         value="1B"></property>
+        <property name="B3_RBUTTON"                         value="3B"></property>
+        <property name="CI_RBUTTON"                         value="CI"></property>
+        <property name="B2_RBUTTON"                         value="2B"></property>
+        <property name="MI_RBUTTON"                         value="MI"></property>
+        <property name="SS_RBUTTON"                         value="SS"></property>
+        <property name="OF_RBUTTON"                         value="OF"></property>
+        <property name="U_RBUTTON"                          value="U"></property>
+        <property name="P_RBUTTON"                          value="P"></property>
+        
+        <property name="FIRST_COL"              value="First"></property>
+        <property name="LAST_COL"               value="Last"></property>
+        <property name="PRO_TEAM_COL"           value="Pro Team"></property>
+        <property name="POSITION_COL"           value="Positions"></property>
+        <property name="YOB_COL"                value="Year of Birth"></property>
+        <property name="RUN_WIN_COL"            value="R/W"></property>
+        <property name="HOMERUN_SAVE_COL"       value="HR/SV"></property>
+        <property name="RBI_STRIKEOUT_COL"      value="RBI/K"></property>
+        <property name="SB_ERA_COL"             value="SB/ERA"></property>
+        <property name="BA_WHIP_COL"            value="BA/WHIP"></property>
+        <property name="EST_VALUE_COL"          value="Estimated Value"></property>
+        <property name="NOTES_COL"              value="Notes"></property>
+        
+        <property name="CONTRACT_COL"           value="Contract"></property>
+        <property name="SALARY_COL"             value="Salary"></property>
+        
+        <!-- TeamsPaneLabels -->
+        <property name="DRAFT_NAME"              value="Draft Name"></property>
+        <property name="SELECT_TEAM"             value="Select Fantasy Team"></property>
+        <property name="STARTING_LINEUP"         value="Starting Lineup"></property>
+        <property name="TAXI_SQUAD"               value="Taxi Squad"></property>
+        
+        <!-- Dialog Messages -->
+        <property name="NEW_LEAGUE_MESSAGE"        value="New League has been created"></property>
+        
+        <!--Dialog Button Text -->
+        <property name="CLOSE_BUTTON_TEXT"        value="Close"></property>
+        
+        
+    </property_list>
+    <property_options_list>
+    </property_options_list>
+</properties>
